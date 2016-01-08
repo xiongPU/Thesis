@@ -1,0 +1,38 @@
+\chapter{Splitting of Generated Weyl Nodes of a Dirac Semimetal in a Magnetic Field\label{ch:WeylSplit}}
+
+
+%\subsection{Splitting of generated Weyl nodes of a Dirac semimetal in a magnetic field}
+In this section, we will discuss a crucial problem of 3D Dirac semimetals, i.e. how much shift can the Weyl nodes have in a magnetic field when they are generated from the Dirac nodes at zero field. To solve this problem,we leverage the model introduced by Wang \etal~\cite{Wang2012} (see also Jeon \etal~\cite{Jeon2014}), and estimate the shift in the Weyl nodes induced by the magnetic field $\bf B$ as follows. In a field $\bf B\parallel \hat{z}$, we have ${\bf k \to \Pi} = {\bf k} - e{\bf A}$, with the vector potential ${\bf A} = xB{\bf \hat{y}}$. The wavevector $\bf k$ is measured relative to the Dirac node. Neglecting the off-diagonal corrections in the full $4\times4$ Hamiltonian, the
+$2\times2$ Hamiltonian for the ``up'' Weyl node has the form 
+\begin{eqnarray}
+H_+ = \hbar v\left[\begin{array}{cc}
+						\Pi_z   &  \Pi_+   \\
+						\Pi_-   &   -\Pi_z  
+						\end{array}\right]
+						-\mu_B B \left[\begin{array}{cc}
+						g_s   &   0   \\
+						0      &   g_p  
+						\end{array}\right],
+						\label{H1}
+						\end{eqnarray}
+where $\Pi_{\pm} = \Pi_x \pm i\Pi_y$ and $\mu_B$ is the Bohr magneton. Expressing the $g$-factors $g_s$ and $g_p$ (which are distinct) of the starting atomic orbitals $|S,\pm\rangle$ and $|P,\pm\rangle$ as $g_s = g_m + \delta g$ and $g_p = g_m - \delta g$, we have the Hamiltonian 
+\be
+H_+ = v{\bf \Pi\cdot }\boldsymbol{\tau} - g_m\mu_B B {\bf 1}- \delta g\mu_B B \tau_3,
+\label{H2}
+\ee
+where $\tau_i$ are the Pauli matrices in orbital space.
+By transforming the $\Pi_\pm$ to raising and lowering operators $a^\dagger$ and $a$, with $\ell_B$ the magnetic length,
+\be
+\Pi_+ = \frac{\sqrt{2} a^\dagger}{\ell_B}, \quad \Pi_- = \frac{\sqrt{2} a}{\ell_B}
+\label{Pi}
+\ee
+we diagonalize $H_+$ to obtain the eigenenergy of the $n^{th}$ Landau level
+\be
+E_n(k_z) = -g_m\mu_B B \pm \sqrt{ \frac{2n\hbar^2 v^2}{\ell_B^2} + (\hbar vk_z -\delta g\mu_BB)^2}.
+\label{En}
+\ee
+Setting the second term under the square root to zero, we obtain $\Delta k = \delta g\mu_B B/\hbar v$.
+This is used in the main text to estimate the shift. 
+
+The term $-g_m\mu_B B$ in Eq. \ref{En} leads to pronounced deviation of the index plot from a straight line if $|g_m|\gg 1$, consistent with the deviation in Fig. \ref{figSdH}.
+

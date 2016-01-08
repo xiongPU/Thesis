@@ -1,0 +1,51 @@
+\chapter{Resistivity and Conductivity Tensors from Boltzmann Equation in Tilted Magnetic Field\label{ch:Boltzmann}}
+
+%\subsection{Resistivity and conductivity tensors from Boltzmann equation in tilted field}
+In this section, we will show that the above MR results of our Na$_3$Bi samples at different directions of $\bf B$ are not expected from the conventional semiclassical, one-band transport theory in a tilted field. For a single anisotropic band, the Boltzmann equation is
+\be
+e{\bf E\cdot v}\frac{\partial f^0_{\bf k}}{\partial \epsilon_{\bf k}} + e{\bf v\times B}\cdot\frac{\partial g_{\bf k}}{\partial {\bf k}} 
+= -\frac{g_{\bf k}}{\tau},
+\label{Boltz}
+\ee
+with $e$ the charge, $\bf E$ the electric field, $\bf v = \partial\epsilon_{\bf k}/\hbar\partial {\bf k}$ the band velocity, $g_{\bf k}$ the leading correction to the equilibrium distribution function $f^0_{\bf k}$, and $\tau$ the relaxation time. Suppose the magnetic field is in the $x$-$z$ plane, i.e. ${\bf B} = (B_1, 0, B_3)$. Using the \emph{ansatz} with $\bf u$ the drift velocity
+\be
+g_{\bf k} = -{\bf u\cdot k}\frac{\partial f^0_{\bf k}}{\partial \epsilon_{\bf k}},
+\ee
+and the effective mass matrix
+\begin{eqnarray}
+\hat{m} = \left[   \begin{array}{ccc}
+		m_1   &   0   &   0 \\
+		0      &    m_2 &   0 \\
+		0     &    0     &   m_3   \end{array}\right]
+\end{eqnarray}
+we can solve Eq. \ref{Boltz} to get the resistivity tensor ($n$ is the carrier density)
+\begin{eqnarray}
+\hat{\rho} = 
+						\left[  	\begin{array}{ccc}
+								\rho_1	&  -B_3/ne   &   0  \\
+								B_3/ne  &   \rho_2   &   -B_1/ne \\
+								0          &   B_1/ne   &   \rho_3   
+								\end{array}
+								\right].
+				\label{rhoij}
+				\end{eqnarray}
+				
+
+Inverting $\hat\rho$, we obtain the conductivity tensor 
+\begin{eqnarray}
+\hat{\sigma} = 
+						\frac{1}{\Delta}\left[  	\begin{array}{ccc}
+								\sigma_1(1+\mu_1\mu_3 B_1^2)  &  \sigma_1\mu_2B_3   &   \sigma_2\mu_1\mu_3 B_1B_3 \\
+								 -\sigma_1\mu_2B_3									&   \sigma_2   									&   \sigma_2\mu_3B_1   \\
+								\sigma_2\mu_1\mu_3 B_1B_3     &    -\sigma_2\mu_3B_1      &   \sigma_3(1+\mu_1\mu_2B_3^2)
+								\end{array}
+								\right]
+				\label{Sij}
+				\end{eqnarray}
+where the zero-field conductivities and resistivities are defined by $\sigma_i = 1/\rho_i = ne\mu_i $ in terms of the anisotropic
+mobilities $\mu_i = e\tau/m_i$. The determinant $\Delta$ equals $(1+\mu_2\mu_3 B_1^2+ \mu_1\mu_2 B_3^2)$.
+
+An important conclusion of the above calculations is that, despite the anisotropy and the tilted field direction, the longitudinal resistivity 
+$\rho_{xx}$ (the three diagonal terms) is strictly independent of $\bf B$ (meaning the Hall E-field perfectly balances the Lorentz force). In the limit $B_3\to 0$ (or $\theta\to 0$ in Fig. \ref{figPolar4}C,D), the longitudinal conductivity $\sigma_{xx}$ acquires a mild field dependence that vanishes if $\mu_1 = \mu_2 = \mu_3$. It never diverges as $1/\sin\theta$ or any other form.
+
+Equations \ref{rhoij} and \ref{Sij} also apply to the geometry with $\bf B$ in the $x$-$y$ plane (Fig. 3 and Fig. 4A,B of main text) if we exchange the axes $y\leftrightarrow z$.

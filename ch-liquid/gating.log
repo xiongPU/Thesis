@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 DEC 2015 01:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  8 JAN 2016 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,11 +9,11 @@ LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 ./gating.tex:1: Undefined control sequence.
 l.1 \section
-            {Ionic Gating Experiments on Topological Insulator}
+            {Ionic Liquid Gating Experiments on Topological Insulators}
 ? 
 ./gating.tex:1: Emergency stop.
 l.1 \section
-            {Ionic Gating Experiments on Topological Insulator}
+            {Ionic Liquid Gating Experiments on Topological Insulators}
 End of file on the terminal!
 
  
@@ -24,5 +24,5 @@ Here is how much of TeX's memory you used:
  3557 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 5i,0n,1p,72b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 5i,0n,1p,80b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
 ./gating.tex:1:  ==> Fatal error occurred, no output PDF file produced!
